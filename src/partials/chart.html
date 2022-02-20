@@ -1,27 +1,34 @@
-<div class="chart--show">
-    <ul class="chart--list">
-        <li class="chart--btn__hide">Hide Chart</li>
-        <li class="chart--btn__item">
-            <button class="chart--btn">
-            <svg class="chart--icon">
-                <use href="./images/chartBtn.svg#chart_down"></use>
-            </svg>
-            </button>
-        </li>
-    </ul>
-</div>
-<div class="chart-view">
-    <ul class="chart--list">
-        <li class="chart--btn__hide">Hide Chart</li>
-        <li class="chart--btn__item">
-            <button class="chart--btn">
-            <svg class="chart--icon">
-                <use href="./images/chartBtn.svg#chart_down"></use>
-            </svg>
-            </button>
-        </li>
-    </ul>
-    <div class="chart-wrapper">
-        
+
+<section class="container-chart">
+    <!--Кнопка показать или скрыть график-->
+    <div class="chart--show js-hiden">
+        <ul class="chart--list">
+            <li class="chart--btn__show">show Chart</li>
+            <li class="chart--btn__item">
+                <button class="chart--btn">
+                <svg class="chart--icon">
+                    <use href="/images/chartBtn.svg#chart_down"></use>
+                </svg>
+                </button>
+            </li>
+        </ul>
     </div>
-</div>
+    <!--Блок самого графика-->
+    <div class="chart--view hidden">
+        <ul class="chart--list">
+            <li class="chart--btn__show hidden_title">Hide Chart</li>
+            <li class="chart--btn__item">
+                <button class="chart--btn hidden_btn">
+                <svg class="chart--icon">
+                    <use href="/images/chartBtnUp.svg#chart_up"></use>
+                </svg>
+                </button>
+            </li>
+        </ul>
+        <div class="chart-wrapper">
+            <div class="scroll_box">
+                <canvas class="myChart" ></canvas>
+            </div>
+        </div>
+    </div>
+</section>
