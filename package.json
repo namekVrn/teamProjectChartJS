@@ -6,7 +6,7 @@
   "homepage": "https://github.com/namekVrn/teamProjectChartJS",
   "scripts": {
     "dev": "parcel src/*.html --open",
-    "build": "parcel build src/*.html --public-url /teamProjectChartJS/"
+    "build": "parcel build src/*.html --public-url/teamProjectChartJS/"
   },
   "repository": {
     "type": "git",
