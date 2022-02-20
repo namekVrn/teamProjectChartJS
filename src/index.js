@@ -1,5 +1,8 @@
+import {getApiWeather} from "./chart"
+import axios from 'axios';
 import './sass/main.scss';
 
+<<<<<<< Updated upstream
 import axios from 'axios';
 const search = document.querySelector('form#search');
 const searchBox = document.querySelector('input#search-box');
@@ -63,3 +66,11 @@ async function fetchRandomQuote() {
   `;
   return quote;
 }
+=======
+getApiWeather().then(response=>console.log(response.main))
+
+
+
+
+
+>>>>>>> Stashed changes
