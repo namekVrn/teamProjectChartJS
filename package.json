@@ -3,14 +3,14 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://github.com/Korobass87/Weather-GOIT",
+  "homepage": "https://github.com/namekVrn/teamProjectChartJS",
   "scripts": {
     "dev": "parcel src/*.html --open",
-    "build": "parcel build src/*.html --public-url /Weather-GOIT/"
+    "build": "parcel build src/*.html --public-url /teamProjectChartJS/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Korobass87/Weather-GOIT.git"
+    "url": "git+https://github.com/namekVrn/teamProjectChartJS.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
